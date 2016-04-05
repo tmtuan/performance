@@ -1,0 +1,7 @@
+<h1>Employee's Information</h1>
+<h2>Name: <%= @employee.name %></h2>
+<h3>Description: <%= @employee.description %></h3>
+
+<br>
+<%= link_to 'Edit', edit_employee_path(@employee) %>
+<%= link_to 'Delete', @employee, method: :delete, data: { confirm: "Are you sure?"} %>
