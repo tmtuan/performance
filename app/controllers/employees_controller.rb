@@ -21,6 +21,6 @@ class EmployeesController < ApplicationController
   end
 
   def destroy
-    
+
   end
 end
